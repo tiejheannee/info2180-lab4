@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    background: linear-gradient(rgba(255,255,255,0.3), rgba(0, 0, 0, 0.426)), 
+                url("img.jpg") no-repeat center center / cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 45%;
+    background: rgba(0, 0, 0, 0.434);
+    border: 2px solid rgba(255, 255, 255, 0.515);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0px 50px #39688a;
+}
+
+.heading1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman';
+    font-size:230%;
+}
+
+.heading2{
+    color: white;
+    font-family: Georgia, 'Times New Roman';
+
+    
+}
+
+.text{
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman';
+    padding-left: 10px;
+}
+
+.subText{
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman';
+    font-size: 15px;
+    padding: 10px;
+}
+
+.heading3{
+    color: white;
+    opacity: 0.5;
+    font-family: Georgia, 'Times New Roman';
+    padding-left: 10px;
+}
+
+.searchBtn{
+    width: 25%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.212);
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    outline: none;
+    border-radius: 50px;
+    font-size: 12px;/*jtdiyt*/
+    font-family: Georgia, 'Times New Roman';
+    cursor: pointer;
+    color:#ffffff;
+    font-weight: 600;
+}
+
+.searchBtn:hover {
+    border-color: white;
+    box-shadow: 0 0 5px white;
+}
+
+#searchField{
+    width: 70%;
+    height: 45px;
+    color: white;
+    caret-color: white;
+    padding-left: 20px;
+    justify-content: center;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    background: rgba(128, 128, 128, 0.212);
+    cursor: pointer;
+}
+
+#searchField:hover {
+    border-color: white;
+    box-shadow: 0 0 5px white;
+}
+
+#searchField::placeholder{
+    color: white;
+    opacity: 0.5;
+    font-family: Georgia, 'Times New Roman';
+}
+
+.output{
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.719);
+    background: rgba(128, 128, 128, 0.212);
+    margin-top: 40px;
+}
